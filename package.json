@@ -15,5 +15,15 @@
   "bugs": {
     "url": "https://github.com/dmalvia/Nodejs_Crash_Course/issues"
   },
-  "homepage": "https://github.com/dmalvia/Nodejs_Crash_Course#readme"
+  "homepage": "https://github.com/dmalvia/Nodejs_Crash_Course#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "dotenv": "^16.0.2",
+    "minimist": "^1.2.6",
+    "progress": "^2.0.3",
+    "prompt-sync": "^4.2.0"
+  }
 }

@@ -4,7 +4,8 @@
   "description": "This is nodejs crash course for beginners",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,17 @@
   "bugs": {
     "url": "https://github.com/dmalvia/Nodejs_Crash_Course/issues"
   },
-  "homepage": "https://github.com/dmalvia/Nodejs_Crash_Course#readme"
+  "homepage": "https://github.com/dmalvia/Nodejs_Crash_Course#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "cowsay": "^1.5.0",
+    "dotenv": "^16.0.1",
+    "lodash": "^4.17.21",
+    "minimist": "^1.2.6",
+    "progress": "^2.0.3",
+    "prompt-sync": "^4.2.0"
+  }
 }

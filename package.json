@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-crash-course",
+  "version": "1.0.0",
+  "description": "This is nodejs crash course for beginners",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmalvia/Nodejs_Crash_Course.git"
+  },
+  "author": "Dipesh Malvia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmalvia/Nodejs_Crash_Course/issues"
+  },
+  "homepage": "https://github.com/dmalvia/Nodejs_Crash_Course#readme"
+}
